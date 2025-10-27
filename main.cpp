@@ -1,5 +1,5 @@
 #include <iostream>
-#include "emergencias.hpp"
+#include "emergencias.h"
 
 using namespace std;
 
