@@ -1,5 +1,5 @@
-#indef EMERGENCIAS_HPP
-#define EMERGENCIAS_HPP
+#indef EMERGENCIAS_H
+#define EMERGENCIAS_H
 
 #include <iostream>
 #include <string>
@@ -28,5 +28,12 @@ struct Nodo
 Nodo* insertarIncidente(Nodo* heap, Incidente* nuevoIncidente);
 
 #endif
+
+/*henrypillpe*/
+Nodo* atenderIncidente(Nodo* heap);
+void mostrarIncidente(Incidente* incidente);
+
+//*********
+Nodo* fusionarZonas(Nodo* zonaA, Nodo* zonaB);
 
 
